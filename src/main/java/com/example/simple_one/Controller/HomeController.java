@@ -10,4 +10,9 @@ public class HomeController {
 		public String home(){
 				return "This is home !!";
 		}
+
+		@GetMapping("/about")
+		public String about(){
+				return "This is my about page !!";
+		}
 }
